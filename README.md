@@ -18,3 +18,7 @@ Create an elbow plot to identify the best number of clusters. Make sure to do th
 2. If possible, determine where the elbow of the plot is, and at which value of `k` it appears.
 * Part 4: Make a Recommendation 
 Based on your findings, write up a brief (one or two sentences) recommendation for your supervisor in your Jupyter Notebook. Can the patients be clustered? If so, into how many clusters? 
+> after performing the K-mean clustering there were some patterns, however further splitting or accurate prediction is hard due to small dataset.
+> There are three clusters
+> Unable to find clusters with t-SNE due to random noise.
+> Recommensarion:  <ay be to get a bigger dataset.  Then the data could be split into Training and Test.  Then the models are able to make more accurate clustering and prediction
